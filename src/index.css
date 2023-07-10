@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
+
+html {
+  font-family: 'Fira Code', monospace !important;
+}
+
+.folder_container {
+  margin-top: 5px;
+  width: 400px;
+}
+
+.folder {
+  width: 100%;
+  height: fit-content;
+  background-color: #e5e7eb;
+  padding: 5px 10px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 4px;
+  transition: 400ms;
+}
+
+.folder:hover {
+  background-color: #d1d5db;
+}
+
+.folder span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 15px;
+  font-family: 'Fira Code', monospace;
+}
+
+.btn_group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn_group button {
+  width: fit-content;
+  height: fit-content;
+  padding: 3px 6px;
+  background-color: #60a5fa;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  transition: 400ms;
+  font-size: 12px;
+  font-family: 'Fira Code', monospace;
+}
+
+.delete {
+  background-color: #f43f5e !important;
+}
+
+.delete:hover {
+  background-color: #e11d48 !important;
+}
+
+
+.btn_group button:hover {
+  background-color: #3b82f6;
+}
+
+.file {
+  width: 200px;
+  height: fit-content;
+  background-color: #e0e7ff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 4px;
+  margin-top: 3px;
+  transition: 400ms;
+  font-family: 'Fira Code', monospace;
+}
+
+.file:hover {
+  background-color: #c7d2fe;
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 3px;
+}
